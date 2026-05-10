@@ -1,0 +1,451 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Year {
+  id          Int          @id @default(autoincrement())
+  year        Int
+  notes       String?
+  collections Collection[]
+}
+
+model Collection {
+  id              Int                 @id @default(autoincrement())
+  name            String // "Mainline", "Car Culture", vb.
+  code            String? // "HW Mainline", "TH", "STH"
+  isFuture        Boolean             @default(false) // Elite 64 için Future koleksiyonlarını işaretlemek için
+  year            Year                @relation(fields: [yearId], references: [id], onDelete: Cascade)
+  yearId          Int
+  subSeries       SubSeries[]
+  models          Model[]
+  userCollections UserCollection[]
+  history         CollectionHistory[]
+  releaseDates    ReleaseDate[]
+}
+
+model SubSeries {
+  id           Int           @id @default(autoincrement())
+  name         String
+  category     String?       // "Anniversary", "Automotive" etc. - 1st level filter for Silver Series
+  collection   Collection    @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  collectionId Int
+  models       Model[]
+  releaseDates ReleaseDate[]
+}
+
+model Model {
+  id            Int           @id @default(autoincrement())
+  castingName   String
+  castingId     String?
+  description   String?
+  debutSeries   String?
+  produced      String?
+  designer      String?
+  castingNumber String?
+  toyNumber     String? // Elite 64 için Toy# bilgisi
+  seriesNumber  String? // Elite 64 için Series# bilgisi
+  mainImageId   Int?
+  collection    Collection    @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  collectionId  Int
+  subSeries     SubSeries?    @relation(fields: [subSeriesId], references: [id], onDelete: SetNull)
+  subSeriesId   Int?
+  owned         Boolean       @default(false)
+  wishlisted    Boolean       @default(false)
+  quantity      Int           @default(0)
+  notes         String?
+  packedPrice   Float? // Eski alan (geriye dönük uyumluluk için tutuldu)
+  loosePrice    Float? // Eski alan (geriye dönük uyumluluk için tutuldu)
+  packedPurchasePrice Float? // Alınan Fiyat (Packed)
+  packedMarketPrice   Float? // Piyasa Değeri (Packed)
+  packedOriginalPrice Float? // Orjinal Fiyat (Packed)
+  loosePurchasePrice  Float? // Alınan Fiyat (Loose)
+  looseMarketPrice    Float? // Piyasa Değeri (Loose)
+  saleDate      String? // RLC için Sale Date bilgisi
+  variants      Variant[]
+  images        Image[]
+  priceAlerts   PriceAlert[]
+  releaseDates  ReleaseDate[]
+}
+
+model Variant {
+  id                  Int          @id @default(autoincrement())
+  model               Model        @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  modelId             Int
+  year                Int
+  releaseName         String?
+  color               String?
+  theme               String? // Pop Culture için Theme bilgisi
+  cardNumber          String?
+  toyNumber           String? // Toy# - her variant için benzersiz (1st Color, 2nd Color, 3rd Color için farklı)
+  isTreasureHunt      Boolean      @default(false)
+  isSuperTreasureHunt Boolean      @default(false)
+  wheelType           String?
+  cardVariation       String?
+  imageId             Int?
+  owned               Boolean      @default(false) // Eski alan (geriye dönük uyumluluk için tutuldu)
+  packedOwned         Boolean      @default(false) // Packed (kutusunda) sahiplik durumu
+  looseOwned          Boolean      @default(false) // Loose (kutusuz) sahiplik durumu
+  wishlisted          Boolean      @default(false)
+  quantity            Int          @default(0)
+  condition           String?
+  notes               String?
+  images              Image[]
+  priceAlerts         PriceAlert[]
+}
+
+model Image {
+  id             Int      @id @default(autoincrement())
+  path           String // relative path to public folder
+  alt            String?
+  name           String? // Gallery'deki resim ismi
+  isGalleryImage Boolean  @default(false) // Gallery resmi mi?
+  order          Int?     // Order field for sorting images
+  notes          String?  // Notes field for image metadata
+  variant        Variant? @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  variantId      Int?
+  model          Model?   @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  modelId        Int?
+}
+
+model ThemedMultipack {
+  id            Int                  @id @default(autoincrement())
+  collection    Collection           @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  collectionId  Int
+  year          Int
+  packageCode   String
+  themeName     String
+  displayName   String?
+  notes         String?
+  imageUrl      String?
+  items         ThemedMultipackItem[]
+  createdAt     DateTime             @default(now())
+  updatedAt     DateTime             @updatedAt
+}
+
+model ThemedMultipackItem {
+  id          Int             @id @default(autoincrement())
+  multipack   ThemedMultipack @relation(fields: [multipackId], references: [id], onDelete: Cascade)
+  multipackId Int
+  variant     Variant?        @relation(fields: [variantId], references: [id], onDelete: SetNull)
+  variantId   Int?
+  model       Model?          @relation(fields: [modelId], references: [id], onDelete: SetNull)
+  modelId     Int?
+  position    Int
+  notes       String?
+}
+
+model ShareLink {
+  id        Int       @id @default(autoincrement())
+  shareId   String    @unique // UUID
+  type      String // "collection", "model", "variant"
+  targetId  Int
+  userId    Int?
+  user      User?     @relation(fields: [userId], references: [id])
+  isPublic  Boolean   @default(true)
+  expiresAt DateTime?
+  createdAt DateTime  @default(now())
+  viewCount Int       @default(0)
+}
+
+model Goal {
+  id           Int       @id @default(autoincrement())
+  name         String
+  description  String?
+  targetCount  Int
+  currentCount Int       @default(0)
+  type         String // "model_count", "collection_complete", "value_target", "year_target"
+  targetId     Int? // Collection ID, SubSeries ID, vb.
+  userId       Int?
+  user         User?     @relation(fields: [userId], references: [id])
+  deadline     DateTime?
+  completed    Boolean   @default(false)
+  completedAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model SavedFilter {
+  id         Int      @id @default(autoincrement())
+  name       String
+  filterData String // JSON string
+  type       String // "variants", "models"
+  createdAt  DateTime @default(now())
+}
+
+model Achievement {
+  id               Int               @id @default(autoincrement())
+  name             String
+  description      String
+  icon             String? // Icon name veya emoji
+  condition        String // JSON string - achievement koşulu
+  rarity           String // "common", "rare", "epic", "legendary"
+  createdAt        DateTime          @default(now())
+  userAchievements UserAchievement[]
+}
+
+model UserAchievement {
+  id            Int         @id @default(autoincrement())
+  achievementId Int
+  achievement   Achievement @relation(fields: [achievementId], references: [id])
+  userId        Int? // User ID
+  user          User?       @relation(fields: [userId], references: [id])
+  unlockedAt    DateTime    @default(now())
+  progress      Int         @default(0)
+  completed     Boolean     @default(false)
+}
+
+model Streak {
+  id          Int      @id @default(autoincrement())
+  userId      Int?
+  user        User?    @relation(fields: [userId], references: [id])
+  currentDays Int      @default(0)
+  longestDays Int      @default(0)
+  lastLogin   DateTime @default(now())
+}
+
+model PriceHistory {
+  id         Int      @id @default(autoincrement())
+  variantId  Int?
+  modelId    Int?
+  source     String // "ebay", "manual", "wiki", "google"
+  price      Float
+  currency   String   @default("USD")
+  url        String? // Kaynak URL
+  recordedAt DateTime @default(now())
+}
+
+model DashboardLayout {
+  id        Int               @id @default(autoincrement())
+  userId    Int?
+  user      User?             @relation(fields: [userId], references: [id])
+  name      String
+  isDefault Boolean           @default(false)
+  widgets   DashboardWidget[]
+  createdAt DateTime          @default(now())
+  updatedAt DateTime          @updatedAt
+}
+
+model DashboardWidget {
+  id        Int             @id @default(autoincrement())
+  layoutId  Int
+  layout    DashboardLayout @relation(fields: [layoutId], references: [id], onDelete: Cascade)
+  type      String // "stats", "chart", "collection", "goal", "achievement", "recent", "trend"
+  position  Int // Grid position (0-based index)
+  size      String // "1x1", "2x1", "2x2", "1x2"
+  config    String // JSON string - widget configuration
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+}
+
+model User {
+  id                        Int                        @id @default(autoincrement())
+  email                     String                     @unique
+  name                      String?
+  passwordHash              String
+  createdAt                 DateTime                   @default(now())
+  updatedAt                 DateTime                   @updatedAt
+  userCollections           UserCollection[]
+  achievements              UserAchievement[]
+  goals                     Goal[]
+  shareLinks                ShareLink[]
+  dashboardLayouts          DashboardLayout[]
+  streaks                   Streak[]
+  collectionHistory         CollectionHistory[]
+  priceAlerts               PriceAlert[]
+  calendarEvents            CalendarEvent[]
+  seasonalEventParticipants SeasonalEventParticipant[]
+  competitions              Competition[]
+  competitionEntries        CompetitionEntry[]
+  dailyQuestCompletions     DailyQuestCompletion[]
+  userXP                    UserXP?
+}
+
+model UserCollection {
+  id           Int        @id @default(autoincrement())
+  userId       Int
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  collectionId Int
+  collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  isDefault    Boolean    @default(false)
+  createdAt    DateTime   @default(now())
+}
+
+model CollectionHistory {
+  id           Int         @id @default(autoincrement())
+  userId       Int?
+  user         User?       @relation(fields: [userId], references: [id])
+  collectionId Int?
+  collection   Collection? @relation(fields: [collectionId], references: [id])
+  action       String // "create", "update", "delete", "add_model", "remove_model"
+  entityType   String // "collection", "model", "variant"
+  entityId     Int?
+  changes      String? // JSON string - değişiklik detayları
+  createdAt    DateTime    @default(now())
+}
+
+model PriceAlert {
+  id          Int       @id @default(autoincrement())
+  userId      Int?
+  user        User?     @relation(fields: [userId], references: [id])
+  variantId   Int?
+  variant     Variant?  @relation(fields: [variantId], references: [id])
+  modelId     Int?
+  model       Model?    @relation(fields: [modelId], references: [id])
+  targetPrice Float
+  condition   String // "below", "above", "equal"
+  active      Boolean   @default(true)
+  notified    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  triggeredAt DateTime?
+}
+
+model ReleaseDate {
+  id           Int         @id @default(autoincrement())
+  collectionId Int?
+  collection   Collection? @relation(fields: [collectionId], references: [id])
+  subSeriesId  Int?
+  subSeries    SubSeries?  @relation(fields: [subSeriesId], references: [id])
+  modelId      Int?
+  model        Model?      @relation(fields: [modelId], references: [id])
+  releaseDate  DateTime
+  region       String? // "US", "EU", "Global", etc.
+  source       String // "official", "wiki", "community"
+  confirmed    Boolean     @default(false)
+  notes        String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+}
+
+model CalendarEvent {
+  id           Int       @id @default(autoincrement())
+  userId       Int?
+  user         User?     @relation(fields: [userId], references: [id])
+  title        String
+  description  String?
+  eventType    String // "release", "fair", "competition", "custom"
+  startDate    DateTime
+  endDate      DateTime?
+  location     String?
+  url          String?
+  reminder     Boolean   @default(false)
+  reminderDays Int? // Days before event to remind
+  synced       Boolean   @default(false) // Synced to external calendar
+  externalId   String? // External calendar event ID
+  calendarType String? // "google", "outlook", "ical"
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model SeasonalEvent {
+  id           Int                        @id @default(autoincrement())
+  name         String
+  description  String?
+  startDate    DateTime
+  endDate      DateTime
+  type         String // "holiday", "anniversary", "special", "challenge"
+  rewards      String? // JSON string - ödüller
+  active       Boolean                    @default(true)
+  participants SeasonalEventParticipant[]
+  createdAt    DateTime                   @default(now())
+  updatedAt    DateTime                   @updatedAt
+}
+
+model SeasonalEventParticipant {
+  id          Int           @id @default(autoincrement())
+  userId      Int?
+  user        User?         @relation(fields: [userId], references: [id])
+  eventId     Int
+  event       SeasonalEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  progress    Int           @default(0)
+  completed   Boolean       @default(false)
+  completedAt DateTime?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  @@unique([userId, eventId])
+}
+
+model Competition {
+  id          Int                @id @default(autoincrement())
+  userId      Int?
+  user        User?              @relation(fields: [userId], references: [id])
+  name        String
+  description String?
+  type        String // "collection", "speed", "rarity", "value"
+  startDate   DateTime
+  endDate     DateTime
+  rules       String? // JSON string - kurallar
+  prizes      String? // JSON string - ödüller
+  active      Boolean            @default(true)
+  entries     CompetitionEntry[]
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+}
+
+model CompetitionEntry {
+  id            Int         @id @default(autoincrement())
+  userId        Int?
+  user          User?       @relation(fields: [userId], references: [id])
+  competitionId Int
+  competition   Competition @relation(fields: [competitionId], references: [id], onDelete: Cascade)
+  score         Float       @default(0)
+  rank          Int?
+  submittedAt   DateTime    @default(now())
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+model DailyQuest {
+  id          Int                    @id @default(autoincrement())
+  name        String
+  description String?
+  type        String // "add_model", "add_variant", "complete_collection", "share", "custom"
+  targetValue Int // Hedef değer
+  xpReward    Int                    @default(10)
+  reward      String? // JSON string - ek ödüller
+  active      Boolean                @default(true)
+  questDate   DateTime               @default(now()) // Hangi gün için
+  completions DailyQuestCompletion[]
+  createdAt   DateTime               @default(now())
+  updatedAt   DateTime               @updatedAt
+}
+
+model DailyQuestCompletion {
+  id          Int        @id @default(autoincrement())
+  userId      Int?
+  user        User?      @relation(fields: [userId], references: [id])
+  questId     Int
+  quest       DailyQuest @relation(fields: [questId], references: [id], onDelete: Cascade)
+  progress    Int        @default(0)
+  completed   Boolean    @default(false)
+  completedAt DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@unique([userId, questId])
+}
+
+model UserXP {
+  id           Int      @id @default(autoincrement())
+  userId       Int      @unique
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  totalXP      Int      @default(0)
+  currentLevel Int      @default(1)
+  levelXP      Int      @default(0) // Mevcut seviye için XP
+  nextLevelXP  Int      @default(100) // Bir sonraki seviye için gereken XP
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Settings {
+  id        Int      @id @default(autoincrement())
+  key       String   @unique // "openai_api_key", "ebay_api_key", "google_lens_api_key"
+  value     String   // API key değeri (şifrelenmiş olmalı, ama şimdilik plain text)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

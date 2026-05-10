@@ -1,0 +1,3196 @@
+{
+  "timestamp": "2026-01-08T17:53:52.651Z",
+  "totalCollections": 93,
+  "collectionsWithLinks": 89,
+  "collectionsWithoutLinks": 4,
+  "segments": {
+    "Anniversary": {
+      "current": [
+        {
+          "name": "Blue and Gold",
+          "segment": "Anniversary",
+          "years": [
+            2026
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Blue_and_Gold_Series_(2026)",
+          "hasLink": true
+        }
+      ],
+      "past": [
+        {
+          "name": "50th Anniversary Black and Gold",
+          "segment": "Anniversary",
+          "years": [
+            2018
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/50th_Anniversary_Black_and_Gold_Series_(2018)",
+          "hasLink": true
+        },
+        {
+          "name": "Satin and Chrome",
+          "segment": "Anniversary",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Satin_and_Chrome_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Pearl and Chrome",
+          "segment": "Anniversary",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Pearl_and_Chrome_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "Orange and Blue",
+          "segment": "Anniversary",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Orange_and_Blue_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "Blue and Pink",
+          "segment": "Anniversary",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Blue_and_Pink_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "55th Anniversary Black and Yellow",
+          "segment": "Anniversary",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/55th_Anniversary_Black_and_Yellow_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "Green and Gold",
+          "segment": "Anniversary",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Green_and_Gold_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Purple and Gold",
+          "segment": "Anniversary",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Purple_and_Gold_Series_(2025)",
+          "hasLink": true
+        }
+      ]
+    },
+    "Automotive": {
+      "current": [
+        {
+          "name": "Summit Surge",
+          "segment": "Automotive",
+          "years": [],
+          "wikiUrl": null,
+          "hasLink": false,
+          "notes": "No link available - will create empty SubSeries"
+        },
+        {
+          "name": "Compact Kings",
+          "segment": "Automotive",
+          "years": [
+            2026
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Compact_Kings_Series_(2026)",
+          "hasLink": true
+        },
+        {
+          "name": "Rally Racers",
+          "segment": "Automotive",
+          "years": [
+            2026
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Rally_Racers_Series_(2026)",
+          "hasLink": true
+        }
+      ],
+      "past": [
+        {
+          "name": "Honda 70th Anniversary",
+          "segment": "Automotive",
+          "years": [
+            2018
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Honda_70th_Anniversary_Series_(2018)",
+          "hasLink": true
+        },
+        {
+          "name": "Mopar",
+          "segment": "Automotive",
+          "years": [
+            2018,
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Mopar_Series_(2018)",
+          "hasLink": true
+        },
+        {
+          "name": "Ford Trucks",
+          "segment": "Automotive",
+          "years": [
+            2018
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Ford_Trucks_Series_(2018)",
+          "hasLink": true
+        },
+        {
+          "name": "Detroit Muscle",
+          "segment": "Automotive",
+          "years": [
+            2018
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Detroit_Muscle_Series_(2018)",
+          "hasLink": true
+        },
+        {
+          "name": "American Pickup",
+          "segment": "Automotive",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/American_Pickup_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Backroad Rally",
+          "segment": "Automotive",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Backroad_Rally_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Off Road Trucks",
+          "segment": "Automotive",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Off_Road_Trucks_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Forza Horizon 4",
+          "segment": "Automotive",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Horizon_4_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Exotics",
+          "segment": "Automotive",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Exotics_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Fast & Furious",
+          "segment": "Automotive",
+          "years": [
+            2020,
+            2019,
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Fast_%26_Furious_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "Urban Camouflage",
+          "segment": "Automotive",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Urban_Camouflage_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "HW Police",
+          "segment": "Automotive",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/HW_Police_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "Forza Motorsport",
+          "segment": "Automotive",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Motorsport_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "Cult Racers",
+          "segment": "Automotive",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Cult_Racers_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "Hot Pickups",
+          "segment": "Automotive",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Pickups_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "1/4 Mile Finals",
+          "segment": "Automotive",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/1/4_Mile_Finals_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "Forza Horizon",
+          "segment": "Automotive",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Horizon_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "Mud Runners",
+          "segment": "Automotive",
+          "years": [
+            2022,
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Mud_Runners_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Luxury Sedans",
+          "segment": "Automotive",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Luxury_Sedans_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Honda Civic",
+          "segment": "Automotive",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Honda_Civic_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "World Class Racers",
+          "segment": "Automotive",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/World_Class_Racers_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Japanese Classics",
+          "segment": "Automotive",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Japanese_Classics_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "Forza",
+          "segment": "Automotive",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "Hot Wagons",
+          "segment": "Automotive",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Wagons_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Hot Wheels J-Imports",
+          "segment": "Automotive",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Wheels_J-Imports_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Tubular Trucks",
+          "segment": "Automotive",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Tubular_Trucks_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Hot Wheels Motorcycle Club",
+          "segment": "Automotive",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Wheels_Motorcycle_Club_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "HW Speed Graphics",
+          "segment": "Automotive",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/HW_Speed_Graphics_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "'90s Street Scene",
+          "segment": "Automotive",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/%2790s_Street_Scene_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "Tooned Gulf",
+          "segment": "Automotive",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Tooned_Gulf_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "Surf's Up",
+          "segment": "Automotive",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Surf%27s_Up_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "Toyota",
+          "segment": "Automotive",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Toyota_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "Hybrid Speed",
+          "segment": "Automotive",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Hybrid_Speed_Series_(2025)",
+          "hasLink": true
+        }
+      ]
+    },
+    "Entertainment": {
+      "current": [
+        {
+          "name": "Spider-Man",
+          "segment": "Entertainment",
+          "years": [
+            2026,
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Spider-Man_Series_(2026)",
+          "hasLink": true
+        }
+      ],
+      "past": [
+        {
+          "name": "Mickey Mouse 90th Anniversary",
+          "segment": "Entertainment",
+          "years": [
+            2018
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Mickey_Mouse_90th_Anniversary_Series_(2018)",
+          "hasLink": true
+        },
+        {
+          "name": "Spider-Man: Into the Spider-Verse",
+          "segment": "Entertainment",
+          "years": [
+            2018
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Spider-Man:_Into_the_Spider-Verse_Series_(2018)",
+          "hasLink": true
+        },
+        {
+          "name": "Batman",
+          "segment": "Entertainment",
+          "years": [
+            2019,
+            2021,
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Batman_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Avengers",
+          "segment": "Entertainment",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Avengers_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Toy Story",
+          "segment": "Entertainment",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Toy_Story_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Fast & Furious",
+          "segment": "Entertainment",
+          "years": [
+            2019,
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Fast_%26_Furious_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "SpongeBob SquarePants",
+          "segment": "Entertainment",
+          "years": [
+            2019
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/SpongeBob_SquarePants_Series_(2019)",
+          "hasLink": true
+        },
+        {
+          "name": "Teenage Mutant Ninja Turtles",
+          "segment": "Entertainment",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Teenage_Mutant_Ninja_Turtles_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "Overwatch",
+          "segment": "Entertainment",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Overwatch_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "Spider-Man: Maximum Venom",
+          "segment": "Entertainment",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Spider-Man:_Maximum_Venom_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "Pixar",
+          "segment": "Entertainment",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Pixar_Series_(2020)",
+          "hasLink": true
+        },
+        {
+          "name": "The Muppets",
+          "segment": "Entertainment",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/The_Muppets_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "Tokyo 2020 Olympics",
+          "segment": "Entertainment",
+          "years": [
+            2020
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Tokyo_2020_Olympics_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "Racing Circuit",
+          "segment": "Entertainment",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Racing_Circuit_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Disney Classics",
+          "segment": "Entertainment",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Disney_Classics_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Lightyear",
+          "segment": "Entertainment",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Lightyear_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Spider-Man",
+          "segment": "Entertainment",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Spider-Man_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Warner Bros. 100th Anniversary",
+          "segment": "Entertainment",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Warner_Bros._100th_Anniversary_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "X-Men",
+          "segment": "Entertainment",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/X-Men_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "Disney 100 Holiday",
+          "segment": "Entertainment",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Disney_100_Holiday_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "Sponge Bob 25",
+          "segment": "Entertainment",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/SpongeBob_25_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Transformers",
+          "segment": "Entertainment",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Transformers_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Gran Turismo",
+          "segment": "Entertainment",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Gran_Turismo_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Peanuts 75 Years",
+          "segment": "Entertainment",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Peanuts_75_Years_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "Avatar: The Last Airbender",
+          "segment": "Entertainment",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Avatar:_The_Last_Airbender_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "AcceleRacers",
+          "segment": "Entertainment",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/AcceleRacers_Series_(2025)",
+          "hasLink": true
+        }
+      ]
+    },
+    "Celebrations": {
+      "current": [
+        {
+          "name": "Audi",
+          "segment": "Celebrations",
+          "years": [],
+          "wikiUrl": null,
+          "hasLink": false,
+          "notes": "No link available - will create empty SubSeries"
+        },
+        {
+          "name": "Pontiac 100th Anniversary",
+          "segment": "Celebrations",
+          "years": [
+            2026
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Pontiac_100th_Anniversary_Series_(2026)",
+          "hasLink": true
+        }
+      ],
+      "past": [
+        {
+          "name": "Factory 500 H.P.",
+          "segment": "Celebrations",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Factory_500_H.P._Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "Convertibles",
+          "segment": "Celebrations",
+          "years": [
+            2021
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Convertibles_Series_(2021)",
+          "hasLink": true
+        },
+        {
+          "name": "HW Stars & Stripes",
+          "segment": "Celebrations",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/HW_Stars_%26_Stripes_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Volkswagen",
+          "segment": "Celebrations",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Volkswagen_Series_(2022)",
+          "hasLink": true
+        },
+        {
+          "name": "Corvette 70",
+          "segment": "Celebrations",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Corvette_70_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "American Steel",
+          "segment": "Celebrations",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/American_Steel_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "Porsche",
+          "segment": "Celebrations",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Porsche_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Stars & Stripes",
+          "segment": "Celebrations",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Stars_%26_Stripes_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Mustang 60 Years",
+          "segment": "Celebrations",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Mustang_60_Years_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "BMW",
+          "segment": "Celebrations",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/BMW_Series_(2025)",
+          "hasLink": true
+        }
+      ]
+    },
+    "Vintage": {
+      "current": [
+        {
+          "name": "Vintage Club",
+          "segment": "Vintage",
+          "years": [
+            2026
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Vintage_Club_Series_(2026)",
+          "hasLink": true
+        }
+      ],
+      "past": [
+        {
+          "name": "Vintage Racing Club",
+          "segment": "Vintage",
+          "years": [
+            2024
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Vintage_Racing_Club_Series_(2024)",
+          "hasLink": true
+        },
+        {
+          "name": "Salt Flat Racers",
+          "segment": "Vintage",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Salt_Flat_Racers_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "National Icons",
+          "segment": "Vintage",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/National_Icons_Series_(2025)",
+          "hasLink": true
+        }
+      ]
+    },
+    "Seasonal": {
+      "current": [
+        {
+          "name": "Halloween (DXT91)",
+          "segment": "Seasonal",
+          "years": [],
+          "wikiUrl": null,
+          "hasLink": false,
+          "notes": "No link available - will create empty SubSeries"
+        },
+        {
+          "name": "Winter (W3099)",
+          "segment": "Seasonal",
+          "years": [],
+          "wikiUrl": null,
+          "hasLink": false,
+          "notes": "No link available - will create empty SubSeries"
+        },
+        {
+          "name": "Spring",
+          "segment": "Seasonal",
+          "years": [
+            2026
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Spring_Series_(2026)",
+          "hasLink": true
+        }
+      ],
+      "past": []
+    },
+    "Other": {
+      "current": [
+        {
+          "name": "Batman",
+          "segment": "Other",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Batman_Series_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "Fast & Furious",
+          "segment": "Other",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Fast_%26_Furious_Series#2023",
+          "hasLink": true
+        },
+        {
+          "name": "Neon Speeders",
+          "segment": "Other",
+          "years": [
+            2023
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Neon_Speeders_Series_(2023)",
+          "hasLink": true
+        },
+        {
+          "name": "The Hot Ones",
+          "segment": "Other",
+          "years": [
+            2025
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/The_Hot_Ones_(2025)",
+          "hasLink": true
+        },
+        {
+          "name": "Themed multipacks",
+          "segment": "Other",
+          "years": [],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Themed_multipack",
+          "hasLink": true
+        }
+      ],
+      "past": [
+        {
+          "name": "Ultra Hots",
+          "segment": "Other",
+          "years": [
+            2022
+          ],
+          "wikiUrl": "https://hotwheels.fandom.com/wiki/Ultra_Hots_Series_(2022)",
+          "hasLink": true
+        }
+      ]
+    }
+  },
+  "collections": [
+    {
+      "name": "Blue and Gold",
+      "segment": "Anniversary",
+      "years": [
+        2026
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Blue_and_Gold_Series_(2026)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "50th Anniversary Black and Gold",
+      "segment": "Anniversary",
+      "years": [
+        2018
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/50th_Anniversary_Black_and_Gold_Series_(2018)",
+      "hasLink": true
+    },
+    {
+      "name": "Satin and Chrome",
+      "segment": "Anniversary",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Satin_and_Chrome_Series_(2019)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Pearl and Chrome",
+      "segment": "Anniversary",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Pearl_and_Chrome_Series_(2020)",
+      "hasLink": true
+    },
+    {
+      "name": "Orange and Blue",
+      "segment": "Anniversary",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Orange_and_Blue_Series_(2021)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Blue and Pink",
+      "segment": "Anniversary",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Blue_and_Pink_Series_(2022)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "55th Anniversary Black and Yellow",
+      "segment": "Anniversary",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/55th_Anniversary_Black_and_Yellow_Series_(2023)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Green and Gold",
+      "segment": "Anniversary",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Green_and_Gold_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Purple and Gold",
+      "segment": "Anniversary",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Purple_and_Gold_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Summit Surge",
+      "segment": "Automotive",
+      "years": [],
+      "wikiUrl": null,
+      "hasLink": false,
+      "notes": "No link available - will create empty SubSeries"
+    },
+    {
+      "name": "Compact Kings",
+      "segment": "Automotive",
+      "years": [
+        2026
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Compact_Kings_Series_(2026)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Rally Racers",
+      "segment": "Automotive",
+      "years": [
+        2026
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Rally_Racers_Series_(2026)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color / Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Honda 70th Anniversary",
+      "segment": "Automotive",
+      "years": [
+        2018
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Honda_70th_Anniversary_Series_(2018)",
+      "hasLink": true
+    },
+    {
+      "name": "Mopar",
+      "segment": "Automotive",
+      "years": [
+        2018,
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Mopar_Series_(2018)",
+      "hasLink": true
+    },
+    {
+      "name": "Ford Trucks",
+      "segment": "Automotive",
+      "years": [
+        2018
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Ford_Trucks_Series_(2018)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Detroit Muscle",
+      "segment": "Automotive",
+      "years": [
+        2018
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Detroit_Muscle_Series_(2018)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "American Pickup",
+      "segment": "Automotive",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/American_Pickup_Series_(2019)",
+      "hasLink": true
+    },
+    {
+      "name": "Backroad Rally",
+      "segment": "Automotive",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Backroad_Rally_Series_(2019)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 12,
+        "columnNames": [
+          "Casting Name",
+          "No.",
+          "Toy #",
+          "Color",
+          "Tampo",
+          "Base Material & Color",
+          "Window  Color",
+          "Interior Color",
+          "Wheel Type",
+          "Notes",
+          "Photo",
+          "Photo Card"
+        ],
+        "imageColumns": [
+          10,
+          11
+        ],
+        "imageTypes": [
+          "other",
+          "carded"
+        ],
+        "toyNumberColumn": 2,
+        "castingNameColumn": 0
+      }
+    },
+    {
+      "name": "Off Road Trucks",
+      "segment": "Automotive",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Off_Road_Trucks_Series_(2019)",
+      "hasLink": true
+    },
+    {
+      "name": "Forza Horizon 4",
+      "segment": "Automotive",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Horizon_4_Series_(2019)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo - Car",
+          "Photo - Card"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "other",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Exotics",
+      "segment": "Automotive",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Exotics_Series_(2019)",
+      "hasLink": true
+    },
+    {
+      "name": "Fast & Furious",
+      "segment": "Automotive",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Fast_%26_Furious_Series_(2020)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo - Car",
+          "Photo - Card"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "other",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Urban Camouflage",
+      "segment": "Automotive",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Urban_Camouflage_Series_(2020)",
+      "hasLink": true
+    },
+    {
+      "name": "HW Police",
+      "segment": "Automotive",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/HW_Police_Series_(2020)",
+      "hasLink": true
+    },
+    {
+      "name": "Forza Motorsport",
+      "segment": "Automotive",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Motorsport_Series_(2020)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo - Car",
+          "Photo - Card"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "other",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Cult Racers",
+      "segment": "Automotive",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Cult_Racers_Series_(2021)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Hot Pickups",
+      "segment": "Automotive",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Pickups_Series_(2021)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Card"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "1/4 Mile Finals",
+      "segment": "Automotive",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/1/4_Mile_Finals_Series_(2021)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 12,
+        "columnNames": [
+          "Series #",
+          "Casting Name",
+          "Toy #",
+          "Color",
+          "Tampo",
+          "Base Color / Type",
+          "Window  Color",
+          "Interior Color",
+          "Wheel Type",
+          "Notes",
+          "Photo",
+          "Photo Card"
+        ],
+        "imageColumns": [
+          10,
+          11
+        ],
+        "imageTypes": [
+          "other",
+          "carded"
+        ],
+        "toyNumberColumn": 2,
+        "castingNameColumn": 1
+      }
+    },
+    {
+      "name": "Forza Horizon",
+      "segment": "Automotive",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Horizon_Series_(2021)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 8,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Wheel Type",
+          "Notes",
+          "Photo 1 Loose",
+          "Photo 2 Card"
+        ],
+        "imageColumns": [
+          6,
+          7
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Mud Runners",
+      "segment": "Automotive",
+      "years": [
+        2022,
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Mud_Runners_Series_(2022)",
+      "hasLink": true
+    },
+    {
+      "name": "Luxury Sedans",
+      "segment": "Automotive",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Luxury_Sedans_Series_(2022)",
+      "hasLink": true
+    },
+    {
+      "name": "Honda Civic",
+      "segment": "Automotive",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Honda_Civic_Series_(2022)",
+      "hasLink": true
+    },
+    {
+      "name": "World Class Racers",
+      "segment": "Automotive",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/World_Class_Racers_Series_(2022)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Japanese Classics",
+      "segment": "Automotive",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Japanese_Classics_Series_(2023)",
+      "hasLink": true
+    },
+    {
+      "name": "Forza",
+      "segment": "Automotive",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Forza_Series_(2023)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Hot Wagons",
+      "segment": "Automotive",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Wagons_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Hot Wheels J-Imports",
+      "segment": "Automotive",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Wheels_J-Imports_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Tubular Trucks",
+      "segment": "Automotive",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Tubular_Trucks_Series_(2024)",
+      "hasLink": true
+    },
+    {
+      "name": "Hot Wheels Motorcycle Club",
+      "segment": "Automotive",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Hot_Wheels_Motorcycle_Club_Series_(2024)",
+      "hasLink": true
+    },
+    {
+      "name": "HW Speed Graphics",
+      "segment": "Automotive",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/HW_Speed_Graphics_Series_(2024)",
+      "hasLink": true
+    },
+    {
+      "name": "'90s Street Scene",
+      "segment": "Automotive",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/%2790s_Street_Scene_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Tooned Gulf",
+      "segment": "Automotive",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Tooned_Gulf_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Surf's Up",
+      "segment": "Automotive",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Surf%27s_Up_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo loose",
+          "Photo carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Toyota",
+      "segment": "Automotive",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Toyota_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo loose",
+          "Photo carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Hybrid Speed",
+      "segment": "Automotive",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Hybrid_Speed_Series_(2025)",
+      "hasLink": true
+    },
+    {
+      "name": "Spider-Man",
+      "segment": "Entertainment",
+      "years": [
+        2022,
+        2026
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Spider-Man_Series_(2026)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Mickey Mouse 90th Anniversary",
+      "segment": "Entertainment",
+      "years": [
+        2018
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Mickey_Mouse_90th_Anniversary_Series_(2018)",
+      "hasLink": true
+    },
+    {
+      "name": "Spider-Man: Into the Spider-Verse",
+      "segment": "Entertainment",
+      "years": [
+        2018
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Spider-Man:_Into_the_Spider-Verse_Series_(2018)",
+      "hasLink": true
+    },
+    {
+      "name": "Batman",
+      "segment": "Entertainment",
+      "years": [
+        2019,
+        2021,
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Batman_Series_(2019)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 8,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          6,
+          7
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Avengers",
+      "segment": "Entertainment",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Avengers_Series_(2019)",
+      "hasLink": true
+    },
+    {
+      "name": "Toy Story",
+      "segment": "Entertainment",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Toy_Story_Series_(2019)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Character",
+          "Wheel Type",
+          "Notes",
+          "Photo - Car",
+          "Photo - Card"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "other",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "SpongeBob SquarePants",
+      "segment": "Entertainment",
+      "years": [
+        2019
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/SpongeBob_SquarePants_Series_(2019)",
+      "hasLink": true
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles",
+      "segment": "Entertainment",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Teenage_Mutant_Ninja_Turtles_Series_(2020)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo 1 Loose",
+          "Photo 2 Card"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Overwatch",
+      "segment": "Entertainment",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Overwatch_Series_(2020)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Card"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Spider-Man: Maximum Venom",
+      "segment": "Entertainment",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Spider-Man:_Maximum_Venom_Series_(2020)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Character",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Pixar",
+      "segment": "Entertainment",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Pixar_Series_(2020)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Col #",
+          "Casting Name",
+          "Color",
+          "Theme",
+          "Wheel Type",
+          "Toy #",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 5,
+        "castingNameColumn": 1
+      }
+    },
+    {
+      "name": "The Muppets",
+      "segment": "Entertainment",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/The_Muppets_Series_(2021)",
+      "hasLink": true
+    },
+    {
+      "name": "Tokyo 2020 Olympics",
+      "segment": "Entertainment",
+      "years": [
+        2020
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Tokyo_2020_Olympics_Series_(2021)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 13,
+        "columnNames": [
+          "Series #",
+          "Casting Name",
+          "Toy #",
+          "Color",
+          "Sport",
+          "Tampo",
+          "Base Color / Type",
+          "Window Color",
+          "Interior Color",
+          "Wheel Type",
+          "Notes",
+          "Photo",
+          "Photo Card"
+        ],
+        "imageColumns": [
+          11,
+          12
+        ],
+        "imageTypes": [
+          "other",
+          "carded"
+        ],
+        "toyNumberColumn": 2,
+        "castingNameColumn": 1
+      }
+    },
+    {
+      "name": "Racing Circuit",
+      "segment": "Entertainment",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Racing_Circuit_Series_(2022)",
+      "hasLink": true
+    },
+    {
+      "name": "Disney Classics",
+      "segment": "Entertainment",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Disney_Classics_Series_(2022)",
+      "hasLink": true
+    },
+    {
+      "name": "Lightyear",
+      "segment": "Entertainment",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Lightyear_Series_(2022)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Warner Bros. 100th Anniversary",
+      "segment": "Entertainment",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Warner_Bros._100th_Anniversary_Series_(2023)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "X-Men",
+      "segment": "Entertainment",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/X-Men_Series_(2023)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Disney 100 Holiday",
+      "segment": "Entertainment",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Disney_100_Holiday_Series_(2023)",
+      "hasLink": true
+    },
+    {
+      "name": "Sponge Bob 25",
+      "segment": "Entertainment",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/SpongeBob_25_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Transformers",
+      "segment": "Entertainment",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Transformers_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Tampo",
+          "Character Represented",
+          "Wheel Type",
+          "Notes",
+          "Photo loose",
+          "Photo carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Gran Turismo",
+      "segment": "Entertainment",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Gran_Turismo_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Peanuts 75 Years",
+      "segment": "Entertainment",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Peanuts_75_Years_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Avatar: The Last Airbender",
+      "segment": "Entertainment",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Avatar:_The_Last_Airbender_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo loose",
+          "Photo carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "AcceleRacers",
+      "segment": "Entertainment",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/AcceleRacers_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Audi",
+      "segment": "Celebrations",
+      "years": [],
+      "wikiUrl": null,
+      "hasLink": false,
+      "notes": "No link available - will create empty SubSeries"
+    },
+    {
+      "name": "Pontiac 100th Anniversary",
+      "segment": "Celebrations",
+      "years": [
+        2026
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Pontiac_100th_Anniversary_Series_(2026)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Factory 500 H.P.",
+      "segment": "Celebrations",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Factory_500_H.P._Series_(2021)",
+      "hasLink": true
+    },
+    {
+      "name": "Convertibles",
+      "segment": "Celebrations",
+      "years": [
+        2021
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Convertibles_Series_(2021)",
+      "hasLink": true
+    },
+    {
+      "name": "HW Stars & Stripes",
+      "segment": "Celebrations",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/HW_Stars_%26_Stripes_Series_(2022)",
+      "hasLink": true
+    },
+    {
+      "name": "Volkswagen",
+      "segment": "Celebrations",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Volkswagen_Series_(2022)",
+      "hasLink": true
+    },
+    {
+      "name": "Corvette 70",
+      "segment": "Celebrations",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Corvette_70_Series_(2023)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "American Steel",
+      "segment": "Celebrations",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/American_Steel_Series_(2023)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Porsche",
+      "segment": "Celebrations",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Porsche_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Stars & Stripes",
+      "segment": "Celebrations",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Stars_%26_Stripes_Series_(2024)",
+      "hasLink": true
+    },
+    {
+      "name": "Mustang 60 Years",
+      "segment": "Celebrations",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Mustang_60_Years_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "BMW",
+      "segment": "Celebrations",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/BMW_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo loose",
+          "Photo carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Vintage Club",
+      "segment": "Vintage",
+      "years": [
+        2026
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Vintage_Club_Series_(2026)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Vintage Racing Club",
+      "segment": "Vintage",
+      "years": [
+        2024
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Vintage_Racing_Club_Series_(2024)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Salt Flat Racers",
+      "segment": "Vintage",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Salt_Flat_Racers_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampos",
+          "Base Color/Type",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "National Icons",
+      "segment": "Vintage",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/National_Icons_Series_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Body Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Halloween (DXT91)",
+      "segment": "Seasonal",
+      "years": [],
+      "wikiUrl": null,
+      "hasLink": false,
+      "notes": "No link available - will create empty SubSeries"
+    },
+    {
+      "name": "Winter (W3099)",
+      "segment": "Seasonal",
+      "years": [],
+      "wikiUrl": null,
+      "hasLink": false,
+      "notes": "No link available - will create empty SubSeries"
+    },
+    {
+      "name": "Spring",
+      "segment": "Seasonal",
+      "years": [
+        2026
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Spring_Series_(2026)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 8,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          6,
+          7
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Neon Speeders",
+      "segment": "Other",
+      "years": [
+        2023
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Neon_Speeders_Series_(2023)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 10,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tamposh",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Blacklight",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8,
+          9
+        ],
+        "imageTypes": [
+          "loose",
+          "blacklight",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "The Hot Ones",
+      "segment": "Other",
+      "years": [
+        2025
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/The_Hot_Ones_(2025)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    },
+    {
+      "name": "Themed multipacks",
+      "segment": "Other",
+      "years": [],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Themed_multipack",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 5,
+        "columnNames": [
+          "Package #",
+          "Name",
+          "Vehicles",
+          "Notes",
+          "Photo"
+        ],
+        "imageColumns": [
+          4
+        ],
+        "imageTypes": [
+          "other"
+        ],
+        "castingNameColumn": 1
+      }
+    },
+    {
+      "name": "Ultra Hots",
+      "segment": "Other",
+      "years": [
+        2022
+      ],
+      "wikiUrl": "https://hotwheels.fandom.com/wiki/Ultra_Hots_Series_(2022)",
+      "hasLink": true,
+      "tableStructure": {
+        "columns": 9,
+        "columnNames": [
+          "Series #",
+          "Toy #",
+          "Casting Name",
+          "Color",
+          "Tampo",
+          "Wheel Type",
+          "Notes",
+          "Photo Loose",
+          "Photo Carded"
+        ],
+        "imageColumns": [
+          7,
+          8
+        ],
+        "imageTypes": [
+          "loose",
+          "carded"
+        ],
+        "toyNumberColumn": 1,
+        "castingNameColumn": 2
+      }
+    }
+  ]
+}

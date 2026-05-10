@@ -1,0 +1,53 @@
+{
+  "name": "Hot Wheels Koleksiyon",
+  "short_name": "HW Collector",
+  "description": "Hot Wheels koleksiyon takip sistemi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/hot-wheels-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/hot-wheels-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Ana sayfa",
+      "url": "/",
+      "icons": [{ "src": "/hot-wheels-logo.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Varyantlar",
+      "short_name": "Varyantlar",
+      "description": "Varyant listesi",
+      "url": "/variants",
+      "icons": [{ "src": "/hot-wheels-logo.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Modeller",
+      "short_name": "Modeller",
+      "description": "Model listesi",
+      "url": "/models",
+      "icons": [{ "src": "/hot-wheels-logo.png", "sizes": "96x96" }]
+    }
+  ]
+}
+
+
+
+

@@ -1,0 +1,143 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "variants": "Variants",
+    "collections": "Collections",
+    "models": "Models",
+    "settings": "Settings",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "customizableDashboard": "Customizable Dashboard",
+    "variants": "Variants",
+    "collections": "Collections",
+    "collectionManagement": "Collection Management",
+    "models": "Models",
+    "ai": "AI",
+    "analytics": "Analytics",
+    "dataManagement": "Data Management",
+    "calendar": "Calendar",
+    "recommendations": "Recommendations",
+    "goals": "Goals",
+    "achievements": "Achievements",
+    "gamification": "Gamification",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalModels": "Total Models",
+    "totalVariants": "Total Variants",
+    "ownedVariants": "Owned Variants",
+    "wishlistCount": "Wishlist",
+    "collectionValue": "Collection Value",
+    "completionRate": "Completion Rate"
+  },
+  "variants": {
+    "title": "Variants",
+    "addVariant": "Add Variant",
+    "editVariant": "Edit Variant",
+    "deleteVariant": "Delete Variant",
+    "noVariants": "No variants found"
+  },
+  "collections": {
+    "title": "Collections",
+    "addCollection": "Add Collection",
+    "editCollection": "Edit Collection",
+    "deleteCollection": "Delete Collection",
+    "noCollections": "No collections found"
+  },
+  "models": {
+    "title": "Models",
+    "addModel": "Add Model",
+    "editModel": "Edit Model",
+    "deleteModel": "Delete Model",
+    "noModels": "No models found"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "integrations": "Integrations",
+    "exportImport": "Export/Import",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "gamification": {
+    "title": "Gamification",
+    "dailyQuests": "Daily Quests",
+    "seasonalEvents": "Seasonal Events",
+    "competitions": "Competitions",
+    "badges": "Badges",
+    "level": "Level",
+    "xp": "XP",
+    "progress": "Progress",
+    "completed": "Completed",
+    "join": "Join",
+    "leaderboard": "Leaderboard"
+  },
+  "goals": {
+    "title": "Goals",
+    "addGoal": "Add Goal",
+    "editGoal": "Edit Goal",
+    "deleteGoal": "Delete Goal",
+    "activeGoals": "Active Goals",
+    "completedGoals": "Completed Goals",
+    "noGoals": "No goals found"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "progress": "Progress"
+  },
+  "reports": {
+    "title": "Reports",
+    "generateReport": "Generate Report",
+    "summaryReport": "Summary Report",
+    "collectionReport": "Collection Report",
+    "yearReport": "Year Report",
+    "valueReport": "Value Report",
+    "missingModelsReport": "Missing Models Report"
+  },
+  "calendar": {
+    "title": "Calendar",
+    "releaseDates": "Release Dates",
+    "events": "Events",
+    "addEvent": "Add Event",
+    "addReleaseDate": "Add Release Date"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "collectionDistribution": "Collection Distribution",
+    "yearDistribution": "Year Distribution",
+    "topSeries": "Top Series",
+    "timeline": "Timeline",
+    "investmentAnalysis": "Investment Analysis",
+    "completionRate": "Completion Rate"
+  },
+  "dataManagement": {
+    "title": "Data Management",
+    "validation": "Validation",
+    "duplicates": "Duplicates",
+    "backup": "Backup",
+    "import": "Import",
+    "export": "Export"
+  }
+}
+
+
+

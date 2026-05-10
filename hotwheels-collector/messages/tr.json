@@ -1,0 +1,143 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "variants": "Varyantlar",
+    "collections": "Koleksiyonlar",
+    "models": "Modeller",
+    "settings": "Ayarlar",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "export": "Dışa Aktar",
+    "import": "İçe Aktar",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "close": "Kapat"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "dashboard": "Dashboard",
+    "customizableDashboard": "Özelleştirilebilir Dashboard",
+    "variants": "Varyantlar",
+    "collections": "Koleksiyonlar",
+    "collectionManagement": "Koleksiyon Yönetimi",
+    "models": "Modeller",
+    "ai": "AI",
+    "analytics": "İstatistikler",
+    "dataManagement": "Veri Yönetimi",
+    "calendar": "Takvim",
+    "recommendations": "Öneriler",
+    "goals": "Hedefler",
+    "achievements": "Başarımlar",
+    "gamification": "Oyunlaştırma",
+    "reports": "Raporlar",
+    "settings": "Ayarlar"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalModels": "Toplam Model",
+    "totalVariants": "Toplam Varyant",
+    "ownedVariants": "Sahip Olunan Varyantlar",
+    "wishlistCount": "İstek Listesi",
+    "collectionValue": "Koleksiyon Değeri",
+    "completionRate": "Tamamlanma Oranı"
+  },
+  "variants": {
+    "title": "Varyantlar",
+    "addVariant": "Varyant Ekle",
+    "editVariant": "Varyant Düzenle",
+    "deleteVariant": "Varyant Sil",
+    "noVariants": "Varyant bulunamadı"
+  },
+  "collections": {
+    "title": "Koleksiyonlar",
+    "addCollection": "Koleksiyon Ekle",
+    "editCollection": "Koleksiyon Düzenle",
+    "deleteCollection": "Koleksiyon Sil",
+    "noCollections": "Koleksiyon bulunamadı"
+  },
+  "models": {
+    "title": "Modeller",
+    "addModel": "Model Ekle",
+    "editModel": "Model Düzenle",
+    "deleteModel": "Model Sil",
+    "noModels": "Model bulunamadı"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "general": "Genel",
+    "integrations": "Entegrasyonlar",
+    "exportImport": "Dışa/İçe Aktar",
+    "language": "Dil",
+    "theme": "Tema"
+  },
+  "gamification": {
+    "title": "Oyunlaştırma",
+    "dailyQuests": "Günlük Görevler",
+    "seasonalEvents": "Sezonluk Etkinlikler",
+    "competitions": "Yarışmalar",
+    "badges": "Rozetler",
+    "level": "Seviye",
+    "xp": "XP",
+    "progress": "İlerleme",
+    "completed": "Tamamlandı",
+    "join": "Katıl",
+    "leaderboard": "Liderlik Tablosu"
+  },
+  "goals": {
+    "title": "Hedefler",
+    "addGoal": "Hedef Ekle",
+    "editGoal": "Hedef Düzenle",
+    "deleteGoal": "Hedef Sil",
+    "activeGoals": "Aktif Hedefler",
+    "completedGoals": "Tamamlanan Hedefler",
+    "noGoals": "Hedef bulunamadı"
+  },
+  "achievements": {
+    "title": "Başarımlar",
+    "unlocked": "Açıldı",
+    "locked": "Kilitli",
+    "progress": "İlerleme"
+  },
+  "reports": {
+    "title": "Raporlar",
+    "generateReport": "Rapor Oluştur",
+    "summaryReport": "Özet Rapor",
+    "collectionReport": "Koleksiyon Raporu",
+    "yearReport": "Yıl Raporu",
+    "valueReport": "Değer Raporu",
+    "missingModelsReport": "Eksik Modeller Raporu"
+  },
+  "calendar": {
+    "title": "Takvim",
+    "releaseDates": "Çıkış Tarihleri",
+    "events": "Etkinlikler",
+    "addEvent": "Etkinlik Ekle",
+    "addReleaseDate": "Çıkış Tarihi Ekle"
+  },
+  "analytics": {
+    "title": "İstatistikler",
+    "collectionDistribution": "Koleksiyon Dağılımı",
+    "yearDistribution": "Yıl Dağılımı",
+    "topSeries": "En Çok Seriler",
+    "timeline": "Zaman Çizelgesi",
+    "investmentAnalysis": "Yatırım Analizi",
+    "completionRate": "Tamamlanma Oranı"
+  },
+  "dataManagement": {
+    "title": "Veri Yönetimi",
+    "validation": "Doğrulama",
+    "duplicates": "Yinelenenler",
+    "backup": "Yedekleme",
+    "import": "İçe Aktar",
+    "export": "Dışa Aktar"
+  }
+}
+
+
+
