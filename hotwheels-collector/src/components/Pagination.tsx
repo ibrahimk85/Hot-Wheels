@@ -11,6 +11,8 @@ interface PaginationProps {
   search?: string;
   onlyTH?: boolean;
   onlySTH?: boolean;
+  /** Generic owned filter (e.g. /model-search uses `owned=`) */
+  ownedStatus?: boolean;
   packedOwnedStatus?: boolean;
   looseOwnedStatus?: boolean;
   wishlistedStatus?: boolean;
@@ -30,6 +32,7 @@ export function Pagination({
   search,
   onlyTH,
   onlySTH,
+  ownedStatus,
   packedOwnedStatus,
   looseOwnedStatus,
   wishlistedStatus,
@@ -47,6 +50,7 @@ export function Pagination({
     if (search) params.set('q', search);
     if (onlyTH) params.set('th', '1');
     if (onlySTH) params.set('sth', '1');
+    if (ownedStatus !== undefined) params.set('owned', ownedStatus ? '1' : '0');
     if (packedOwnedStatus !== undefined) params.set('packedOwned', packedOwnedStatus ? '1' : '0');
     if (looseOwnedStatus !== undefined) params.set('looseOwned', looseOwnedStatus ? '1' : '0');
     if (wishlistedStatus !== undefined) params.set('wish', wishlistedStatus ? '1' : '0');
