@@ -56,3 +56,6 @@ dev.db.backup
 # backups
 /backups
 /public/images.backup
+
+# large generated assets — keep locally; not pushed to GitHub
+/public/images/
