@@ -193,6 +193,8 @@ export default async function ModelDetailPage({ params }: ModelDetailPageProps) 
             <VariantImageGallery
               images={allModelImages}
               castingName={model.castingName}
+              modelId={model.id}
+              mainImageId={model.mainImageId}
             />
           </CardContent>
         </Card>

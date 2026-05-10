@@ -289,8 +289,8 @@ export default async function VariantDetailPage({ params }: VariantDetailPagePro
               <VariantImageGallery
                 images={images}
                 castingName={model?.castingName ?? 'Hot Wheels'}
-                color={variant.color}
-                collectionName={collection?.name ?? null}
+                modelId={model.id}
+                mainImageId={model.mainImageId}
               />
             ) : (
               <div className="flex items-center justify-center min-h-[400px]">
