@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# logs (can exceed GitHub file limits)
+/logs/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
