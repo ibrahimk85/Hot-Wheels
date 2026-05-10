@@ -496,6 +496,7 @@ export async function getCurrentValues(matchedVariants: MatchedVariant[]) {
       id: true,
       packedPurchasePrice: true,
       packedMarketPrice: true,
+      packedOriginalPrice: true,
       loosePurchasePrice: true,
       looseMarketPrice: true,
       notes: true,
