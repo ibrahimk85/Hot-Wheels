@@ -1646,7 +1646,18 @@ export async function getModelsBySubSeries(subSeriesId: number) {
             },
             take: 1,
           },
-      images: isTeamTransport ? true : false, // Include model images for Team Transport
+      images: isTeamTransport
+        ? true
+        : variantLevelPreview
+          ? {
+              select: {
+                id: true,
+                path: true,
+                alt: true,
+              },
+              orderBy: { id: 'asc' as const },
+            }
+          : false,
       _count: {
         select: {
           variants: true,
@@ -1754,6 +1765,16 @@ export async function getModelsBySubSeriesAndYear(subSeriesId: number, year: num
         },
         take: 1,
       },
+      images: variantLevelPreviewYearPage
+        ? {
+            select: {
+              id: true,
+              path: true,
+              alt: true,
+            },
+            orderBy: { id: 'asc' as const },
+          }
+        : false,
       _count: {
         select: {
           variants: true,
