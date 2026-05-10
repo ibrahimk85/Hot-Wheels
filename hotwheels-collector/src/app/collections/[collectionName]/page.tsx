@@ -204,6 +204,22 @@ export default async function CollectionPage({
     }
   }
 
+  if (!collectionExists) {
+    return (
+      <div className="space-y-6">
+        <h2 className="text-2xl font-semibold">Koleksiyon Bulunamadı</h2>
+        <Card>
+          <CardContent className="p-6 text-center text-muted-foreground">
+            &quot;{normalizedCollectionName}&quot; koleksiyonu bulunamadı.
+          </CardContent>
+        </Card>
+        <Link href="/collections" className="text-blue-600 hover:underline">
+          ← Koleksiyonlara Dön
+        </Link>
+      </div>
+    );
+  }
+
   const qParam = paramsData?.q;
   const ownedParam = paramsData?.owned;
   const wishParam = paramsData?.wish as string | undefined;
@@ -429,22 +445,6 @@ export default async function CollectionPage({
             </CardContent>
           </Card>
         )}
-      </div>
-    );
-  }
-
-  if (!collectionExists) {
-    return (
-      <div className="space-y-6">
-        <h2 className="text-2xl font-semibold">Koleksiyon Bulunamadı</h2>
-        <Card>
-          <CardContent className="p-6 text-center text-muted-foreground">
-            "{normalizedCollectionName}" koleksiyonu bulunamadı.
-          </CardContent>
-        </Card>
-        <Link href="/collections" className="text-blue-600 hover:underline">
-          ← Koleksiyonlara Dön
-        </Link>
       </div>
     );
   }
