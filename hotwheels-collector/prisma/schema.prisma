@@ -26,6 +26,7 @@ model Collection {
   userCollections UserCollection[]
   history         CollectionHistory[]
   releaseDates    ReleaseDate[]
+  themedMultipacks ThemedMultipack[]
 }
 
 model SubSeries {
@@ -70,6 +71,7 @@ model Model {
   images        Image[]
   priceAlerts   PriceAlert[]
   releaseDates  ReleaseDate[]
+  themedMultipackItems ThemedMultipackItem[]
 }
 
 model Variant {
@@ -96,6 +98,7 @@ model Variant {
   notes               String?
   images              Image[]
   priceAlerts         PriceAlert[]
+  themedMultipackItems ThemedMultipackItem[]
 }
 
 model Image {

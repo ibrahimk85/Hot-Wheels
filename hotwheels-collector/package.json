@@ -6,7 +6,7 @@
     "dev": "next dev -H 0.0.0.0",
     "dev:3001": "next dev -p 3001 -H 0.0.0.0",
     "tunnel": "cloudflared tunnel --url http://localhost:3000",
-    "build": "next build",
+    "build": "prisma generate && prisma migrate deploy && next build",
     "start": "next start",
     "lint": "eslint",
     "th:reset": "ts-node scripts/tools/reset_treasure_hunts.ts",

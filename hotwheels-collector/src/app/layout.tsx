@@ -9,14 +9,18 @@ import { Providers } from "@/components/providers";
 import { defaultLocale } from '@/i18n/config';
 import { validateEnv } from '@/lib/env';
 
-// Validate environment variables on app startup
+// Validate environment variables on app startup (skip strict failure during `next build`)
+const isNextProductionBuild =
+  process.env.NEXT_PHASE === 'phase-production-build';
+
 if (typeof window === 'undefined') {
   try {
     validateEnv();
   } catch (error) {
     console.error('Environment validation failed:', error);
-    // Don't throw in development to allow easier setup
-    if (process.env.NODE_ENV === 'production') {
+    const failHard =
+      process.env.NODE_ENV === 'production' && !isNextProductionBuild;
+    if (failHard) {
       throw error;
     }
   }
